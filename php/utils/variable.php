@@ -12,6 +12,6 @@ $firstName = 'John';
 // Boolean
 $isOpen = false;
 
-echo gettype($isOpen); // returns boolean
+gettype($isOpen); // returns boolean
 
 ?>
