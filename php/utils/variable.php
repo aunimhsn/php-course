@@ -3,7 +3,7 @@
 // Integer
 $count = 3;
 
-// Double
+// Float
 $mark = 15.5;
 
 // String
