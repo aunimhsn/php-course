@@ -15,6 +15,6 @@ $user = [
     ]
     ];
 
-echo $user['address']['street'];
+echo $user['address']['city']; // Display Toulouse
 
 ?>
