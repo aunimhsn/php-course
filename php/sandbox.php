@@ -1,7 +1,8 @@
-<?php 
+<?php require('layout/head.php'); ?>
 
-require('utils/concatenation.php');
+<body>
+    <?php require('layout/header.php'); ?>
+    <?= "Hello World!" ?>
+    <?php require('layout/footer.php'); ?>
+</body>
 
-?>
-
-<?= "Hello World!" ?>
