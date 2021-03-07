@@ -3,10 +3,10 @@
 require ('Environment.php');
 require ('Barbarian.php');
 
-Environment::get_weather(11);
+Environment::getWeather(11);
 
-$thor = new Barbarian('Thor');
+$barbarian = new Barbarian('Turak');
 
-var_dump($thor);
+var_dump($barbarian->getName());
 
 ?>

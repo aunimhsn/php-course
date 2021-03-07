@@ -6,7 +6,7 @@ class Environment {
      * $time (in hour, 0 to 23) 
      * 
      */
-    static public function get_weather($time)  {
+    static public function getWeather(int $time) :void  {
         if ($time <= 12)
             echo "It's cloudy";
 
