@@ -1,6 +1,6 @@
 
 <?php
-require ('Environment.php');
+require_once ('Environment.php');
 require ('Barbarian.php');
 
 Environment::getWeather(11);

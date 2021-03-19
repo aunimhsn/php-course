@@ -7,13 +7,6 @@
     <title>PHP Course</title>
 </head>
 <body>
-    <?php
-        $firstName = 'John';
-        $lastName = 'Doe';
-    ?>
-    <h1>
-        <?php echo "Hello $firstName $lastName" ?> <br/>
-        <?= "Hello $firstName $lastName" ?>
-    </h1>
+    
 </body>
 </html>

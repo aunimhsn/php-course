@@ -49,13 +49,13 @@
         $_SESSION['attempts'] = 0;
 
     if (isset($_POST['number'])) {
-        if ($_POST['number'] > $_SESSION['guess']) {
+        if ((int) $_POST['number'] > $_SESSION['guess']) {
             $message = "It's less";
             $color = "red";
             $_SESSION['attempts']++;
         }
             
-        if ($_POST['number'] < $_SESSION['guess']) {
+        if ((int) $_POST['number'] < $_SESSION['guess']) {
             $message = "It's more";
             $color = "red";
             $_SESSION['attempts']++;

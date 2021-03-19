@@ -13,7 +13,7 @@ $user = [
         'zipCode' => '31000',
         'city' => 'Toulouse'
     ]
-    ];
+];
 
 echo $user['address']['city']; // Display Toulouse
 

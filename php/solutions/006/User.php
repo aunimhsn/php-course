@@ -41,7 +41,7 @@ class User {
         (filter_var($email, FILTER_VALIDATE_EMAIL)) ? $this->_email = $email : throw new Exception('Invalid email format');     
     }
 
-    static public function getAllUsers($assoc = false) : mixed {
+    static public function getAllUsers(bool $assoc = false) : mixed {
         $file = file_get_contents('data.json');
         $json = json_decode($file, $assoc);
 

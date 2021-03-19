@@ -9,7 +9,7 @@
 
 echo "Welcome to the palindrome checker. Please enter a word to check if it's a palindrome or not.\n";
 $input = trim(strtolower(readline()));
-$reverse = strrev(strtolower($input));
+$reverse = strrev($input);
 
 if ($input === $reverse) {
     echo "Yes [$input] is a palindrome.\n";
